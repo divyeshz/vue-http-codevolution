@@ -1,14 +1,17 @@
 <template>
+  <PostList />
   <ParentComponent />
 </template>
 
 <script>
 import ParentComponent from './components/Parent'
+import PostList from './components/PostList'
 
 export default {
   name: 'App',
   components: {
     ParentComponent,
+    PostList
   }
 }
 </script>
