@@ -1,17 +1,14 @@
 <template>
-  <PostList />
-  <ParentComponent />
+  <TemplateRef />
 </template>
 
 <script>
-import ParentComponent from './components/Parent'
-import PostList from './components/PostList'
+import TemplateRef from "./components/TemplateRef";
 
 export default {
   name: 'App',
   components: {
-    ParentComponent,
-    PostList
+    TemplateRef
   }
 }
 </script>
