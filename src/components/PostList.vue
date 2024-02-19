@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="getPosts()">Load Posts</button>
+        <button class="btn btn-primary" @click="getPosts()">Load Posts</button>
         <h3 v-if="errorMsg">{{ errorMsg }}</h3>
         <div v-for="post in posts" :key="post.id">
             <h3>{{ post.id }} {{ post.title }}</h3>
